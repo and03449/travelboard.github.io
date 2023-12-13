@@ -29,11 +29,11 @@
 }
 
 body {
-    font-family: 'Inter', sans-serif;
+    font-family: 'Archivo', sans-serif;
     font-size: 14px;
     scroll-behavior: smooth;
     color: #9f9f9f;
-    background: #0F0F0F;
+    background: transparent;
     line-height: 19.2px;
 }
 img {

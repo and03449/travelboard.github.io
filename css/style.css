@@ -1924,7 +1924,7 @@ h5.cyg_widget-title {
 }
 
 .site-navigation.light .sub-toggle.st-active {
-    color: #121212
+    color: #fff
 }
 
 .sub-menu li.menu-item.menu-item-active a {
@@ -1932,7 +1932,7 @@ h5.cyg_widget-title {
 }
 
 .site-navigation.light .sub-menu li.menu-item.menu-item-active a {
-    color: #121212
+    color: #fff
 }
 
 .menu-toggle {
@@ -1949,13 +1949,15 @@ h5.cyg_widget-title {
     z-index: 113;
     width: 35px;
     height: 35px;
+    color: #fff;
 }
 
 .toggle-line {
     display: block;
     height: 2px;
     width: 0;
-    background: #000;
+    background: #fff;
+    color: #fff;
     margin-bottom: 5px;
     margin-left: auto;
     margin-right: auto;
@@ -1972,16 +1974,20 @@ h5.cyg_widget-title {
     -webkit-transform: none;
     -ms-transform: none;
     transform: none;
+    color: #fff;
 }
 
 .toggle-line-1 {
     margin-top: 9px;
+    color: #fff;
 }
 
 .toggle-line-2 {
     -webkit-transition-delay: 0.1s;
     -o-transition-delay: 0.1s;
     transition-delay: 0.1s;
+    color: #fff;
+    background-color: #fff ;
 }
 
 .is-active .toggle-line-1 {
@@ -1995,6 +2001,8 @@ h5.cyg_widget-title {
     -ms-transform: rotate(-135deg);
     transform: rotate(-135deg);
     margin-top: -7px;
+    color: #fff;
+
 }
 
 .is-active .toggle-line {
@@ -2144,7 +2152,7 @@ h5.cyg_widget-title {
 }
 
 .site-navigation.light .menu-ov {
-    background: #ededed
+    background: #121212
 }
 
 .site-navigation.light .menu > li > a {
@@ -2156,15 +2164,15 @@ h5.cyg_widget-title {
 }
 
 .site-navigation.light .widget-socials li a {
-    color: #121212
+    color: #fff
 }
 
 .site-navigation.light .scrolling-button a:hover {
-    color: #121212
+    color: #fff
 }
 
 .site-navigation.light .is-active .toggle-line {
-    background: #121212
+    background: #fff
 }
 
 .site-header .light-logo {
@@ -2199,11 +2207,11 @@ h5.cyg_widget-title {
 }
 
 .site-navigation.light .menu > li.menu-item-hover > a::before {
-    color: #121212;
+    color: #fff;
 }
 
 .site-navigation.light .sub-menu li a {
-    color: #9f9f9f;
+    color: #fff;
 }
 
 .site-navigation.light .sub-menu li a:hover {
@@ -2211,7 +2219,7 @@ h5.cyg_widget-title {
 }
 
 .site-navigation.light .sub-menu li::after {
-    background: #cecece
+    background: #121212
 }
 
 
@@ -3540,7 +3548,7 @@ h5.cyg_widget-title {
 
 .layout-dark .detailed .project-year,
 .layout-dark .detailed .project-category {
-    color: #c1c1c1
+    color: #fff
 }
 
 /*--------------------------------------------------
@@ -6862,13 +6870,14 @@ h5.cyg_widget-title {
     letter-spacing: 1px;
     margin-bottom: 18px;
     margin-left: 2px;
-    color: #797979;
+    color: #fff;
 }
 
 .project-title {
     font-size: 100px;
     font-weight: 600;
     line-height: 110px;
+    color: #fff;
 }
 .project-title span {
     font-size: 50px;
@@ -8494,7 +8503,7 @@ section:after {
         height: 100%;
         -webkit-transform: translateY(-50%);
         -ms-transform: translateY(-50%);
-        transform: translateY(-50%);
+        transform: translateY(-50%)
     }
 
     .menu > li > a {
