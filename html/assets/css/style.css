@@ -56,6 +56,17 @@ a {
     height: 100%;
 }
 
+.box {
+    background-color: red; /* Replace 'red' with the hex code of the color you want */
+    color: white; /* This sets the text color */
+    padding: 2px 5px; /* Adjust the values as needed */
+    border-radius: 5px; /* This will give you rounded corners */
+    font-family: Arial, sans-serif; /* Replace with your desired font */
+    font-size: 12px; /* Adjust the size as needed */
+    display: inline-block; /* This makes sure the background only covers the text */
+    margin-bottom: 2px;
+  }
+
 /* # Preloader */
 .preloader {
     position: fixed;
